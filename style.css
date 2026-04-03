@@ -1,0 +1,95 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: rgb(253, 255, 189);
+    color: black;
+}
+
+.title-style {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(176, 187, 33);
+  }
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.container > div {
+    margin: 20px auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like {
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-heading{
+    text-align: center;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.project-image{
+    width: 300px;
+    justify-self: center;
+    padding: 4%;
+}
+
+.links-and-cnotact {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.links {
+    justify-self: center;
+}
+
+.links-list {
+    list-style: none;;
+    padding: 0;;
+}
+
+form {
+    width: 250px;
+    margin: 0 auto;
+}
+
+form input[type="submit"] {
+    width: 250px;
+}
+
+.submit-button-wrapper {
+    margin : 20px 0;
+    background-color: aqua;
+    color: black;
+}
+
+.map {
+    text-align: center;
+}
+
+.profile-picture {
+    width: 500px;
+}
